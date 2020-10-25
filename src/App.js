@@ -33,13 +33,13 @@ function App() {
           {/* <Home /> */}
           <View />
         </Route>
-        <Route path="/add" exact>
+        <Route path="/add/" exact>
           <Add />
         </Route>
         {/* <Route path="/view" exact>
           <View />
         </Route> */}
-        <Route path="/create" exact>
+        <Route path="/create/" exact>
           <Create />
         </Route>
       </Switch>
@@ -50,13 +50,13 @@ function App() {
         <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/add" exact>
+        <Route path="/add/" exact>
           <Redirect to="/" />
         </Route>
-        <Route path="/view" exact>
+        <Route path="/view/" exact>
           <Redirect to="/" />
         </Route>
-        <Route path="/create" exact>
+        <Route path="/create/" exact>
           <Redirect to="/" />
         </Route>
         <Redirect to="/" />
