@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bdshop/static/css/main.2c70277b.chunk.css",
-    "main.js": "/bdshop/static/js/main.d36aa1bd.chunk.js",
-    "main.js.map": "/bdshop/static/js/main.d36aa1bd.chunk.js.map",
+    "main.css": "/bdshop/static/css/main.fe156e3e.chunk.css",
+    "main.js": "/bdshop/static/js/main.afbe605e.chunk.js",
+    "main.js.map": "/bdshop/static/js/main.afbe605e.chunk.js.map",
     "runtime-main.js": "/bdshop/static/js/runtime-main.1954dfb8.js",
     "runtime-main.js.map": "/bdshop/static/js/runtime-main.1954dfb8.js.map",
     "static/js/2.22aeb93b.chunk.js": "/bdshop/static/js/2.22aeb93b.chunk.js",
@@ -14,9 +14,9 @@
     "static/js/5.168e4ef4.chunk.js": "/bdshop/static/js/5.168e4ef4.chunk.js",
     "static/js/5.168e4ef4.chunk.js.map": "/bdshop/static/js/5.168e4ef4.chunk.js.map",
     "index.html": "/bdshop/index.html",
-    "precache-manifest.41229373dfe206654b7e6ff6c04a69f6.js": "/bdshop/precache-manifest.41229373dfe206654b7e6ff6c04a69f6.js",
+    "precache-manifest.02d9ef2e52c49447151cc055017ff8fd.js": "/bdshop/precache-manifest.02d9ef2e52c49447151cc055017ff8fd.js",
     "service-worker.js": "/bdshop/service-worker.js",
-    "static/css/main.2c70277b.chunk.css.map": "/bdshop/static/css/main.2c70277b.chunk.css.map",
+    "static/css/main.fe156e3e.chunk.css.map": "/bdshop/static/css/main.fe156e3e.chunk.css.map",
     "static/js/2.22aeb93b.chunk.js.LICENSE.txt": "/bdshop/static/js/2.22aeb93b.chunk.js.LICENSE.txt",
     "static/js/3.367e1089.chunk.js.LICENSE.txt": "/bdshop/static/js/3.367e1089.chunk.js.LICENSE.txt",
     "static/js/4.63e161c2.chunk.js.LICENSE.txt": "/bdshop/static/js/4.63e161c2.chunk.js.LICENSE.txt",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.1954dfb8.js",
     "static/js/3.367e1089.chunk.js",
-    "static/css/main.2c70277b.chunk.css",
-    "static/js/main.d36aa1bd.chunk.js"
+    "static/css/main.fe156e3e.chunk.css",
+    "static/js/main.afbe605e.chunk.js"
   ]
 }
