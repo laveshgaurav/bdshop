@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2769360c560f4182b53e5a192f818af",
+    "revision": "f4f905be0c9c50a36479c3b45c1cd890",
     "url": "/bdshop/index.html"
   },
   {
-    "revision": "2cbdb5217eab6ee33e3e",
+    "revision": "09eb2c4e5433c9517302",
     "url": "/bdshop/static/css/main.2c70277b.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bdshop/static/js/5.168e4ef4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2cbdb5217eab6ee33e3e",
-    "url": "/bdshop/static/js/main.807f996b.chunk.js"
+    "revision": "09eb2c4e5433c9517302",
+    "url": "/bdshop/static/js/main.d36aa1bd.chunk.js"
   },
   {
     "revision": "e04ad21b06a378b01d1a",
