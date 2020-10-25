@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import Table from "@material-ui/core/Table";
+import TextField from "@material-ui/core/TextField";
+
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
@@ -40,6 +42,7 @@ function ViewData(props) {
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [columns, setColumns] = useState([]);
+  const [toSearch, setToSearch] = useState("");
   const refresh = () => {
     setLoading(true);
     fetchData();
@@ -69,7 +72,7 @@ function ViewData(props) {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
   };
-
+  console.log(toSearch);
   const exportPDF = () => {
     const unit = "pt";
     const size = "A4"; // Use A1, A2, A3 or A4
@@ -172,6 +175,14 @@ function ViewData(props) {
             >
               COPY TO CLIPBOARD
             </Button>
+            <TextField
+              style={{ marginBottom: "0.8rem" }}
+              id="standard"
+              label="Search"
+              width="60%"
+              onChange={(e) => setToSearch(e.target.value)}
+              autoComplete="off"
+            />
 
             <Table
               className={classes.table}
@@ -189,6 +200,20 @@ function ViewData(props) {
               </TableHead>
               <TableBody>
                 {data.data
+                  .filter((datas) => {
+                    if (toSearch == null) return datas;
+                    else if (
+                      datas.username
+                        .toLowerCase()
+                        .includes(toSearch.toLowerCase()) ||
+                      datas.ord_number.toString().includes(toSearch) ||
+                      datas.trans_id
+                        .toLowerCase()
+                        .includes(toSearch.toLowerCase())
+                    ) {
+                      return datas;
+                    }
+                  })
                   .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                   .map((row) => (
                     <TableRow key={row.trans_id}>
